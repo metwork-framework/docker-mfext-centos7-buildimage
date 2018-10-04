@@ -1,6 +1,6 @@
 trigger_common: &trigger_common
-  image: plugins/downstream
-  fork: true
+  image: metwork/drone-downstream-specific-image:${DRONE_BRANCH}
+  pull: true
   secrets: [ downstream_token, downstream_server ]
   params:
     - FORCED_OS_VERSION=centos7
