@@ -1,7 +1,14 @@
-<a name="unreleased"></a>
+# CHANGELOG
+
+
 ## [Unreleased]
 
-### Feat
-- add python27 scl (with python 2.7.13 against 2.7.5 in centos7) ([#22](https://github.com/metwork-framework//issues/22))
-- define centos7 release used (7.6.1810) ([#23](https://github.com/metwork-framework//issues/23))
+### New Features
+- define centos7 release used (7.6.1810) (#23)
+- add python27 scl (with python 2.7.13 against 2.7.5 in centos7) (#22)
+
+
+
+
+
 
